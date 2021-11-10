@@ -1,0 +1,36 @@
+textarea,
+pre {
+    -moz-tab-size : 2;
+    -o-tab-size : 2;
+    tab-size : 2;
+}
+#code-block {
+    border: 1px solid #7387a7;
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFD;
+}
+.editor {
+    overflow: scroll !important;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+}
+.code {
+    font-family: monospace;
+    font-size: large;
+}
+.noedit {
+    color: #7387a7;
+}
+.block {
+    outline: none;
+    border-color: transparent;
+    resize: none;
+    overflow: visible;
+    height: 100%;
+    padding: 0;
+    white-space: pre;
+}
+
